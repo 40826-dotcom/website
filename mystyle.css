@@ -1,13 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: #172B2A;
+    background-color: #EDE3F5;
 }
 
 .container {
     width: 1024px;
     margin: 0 auto;
     box-shadow:
-        rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
-        rgba(0, 0, 0, 0.9) 0px 0px 0px 5px;
+        rgba(60, 15, 92, 0.25) 0px 0px 0px 1px inset,
+        rgba(60, 15, 92, 0.45) 0px 0px 0px 5px;
 }
 
 header {
@@ -20,42 +26,42 @@ section {
 }
 
 nav {
-    background-color: #A8C7B5;
+    background-color: #DCC7EA;
     width: 30%;
 }
 
 article {
-    background-color: #EEF4EF;
+    background-color: #FFFAFF;
     width: 70%;
     padding: 10px;
-    color: #203B35;
+    color: #3C0F5C;
 }
 
 footer {
-    background-color: #719B89;
+    background-color: #C6A4DC;
     text-align: center;
     padding: 25px;
-    color: #FFFFFF;
+    color: #3C0F5C;
 }
 
 a:link {
-    color: #24483D;
+    color: #3C0F5C;
     text-decoration: none;
-    background-color: #CFE2D6;
+    background-color: #EADAF3;
     display: block;
     width: 100%;
     padding: 10px;
 }
 
 a:visited {
-    color: #24483D;
+    color: #3C0F5C;
 }
 
 a:hover {
     color: #FFFFFF;
-    background-color: #477C68;
+    background-color: #3C0F5C;
 }
 
 a:active {
-    color: #DFF3E7;
+    color: #F5E9FC;
 }
